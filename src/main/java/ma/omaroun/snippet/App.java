@@ -25,7 +25,10 @@ public class App {
                 Email.check(Arrays.asList(
                         "lesanges@gmail.com",
                         "lesanges.popolili@gmail.com",
-                        "lesanges@outlook.com"
+                        "lesanges@outlook.com",
+                        "lesanges.popolili@outlook.com",
+                        "lesanges@yahoo.com",
+                        "lesanges.popolili@yahoo.com"
                 )));
 
 
