@@ -2,6 +2,7 @@ package ma.omaroun.snippet.email;
 
 import ma.omaroun.snippet.google.email.GmailCheck;
 import ma.omaroun.snippet.outlook.email.OutlookCheck;
+import ma.omaroun.snippet.yahoo.email.YahooCheck;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,6 +14,7 @@ public class Email {
     static {
         emailChecks.add(GmailCheck.getInstace());
         emailChecks.add(OutlookCheck.getInstace());
+        emailChecks.add(YahooCheck.getInstace());
     }
 
     public static class CheckResult {
